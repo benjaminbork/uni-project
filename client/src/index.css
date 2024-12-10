@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+  background-color: white;
+}
+
+/* CARD CAROUSEL */
+.slick-disabled {
+  display: none !important;
+}
+.slick-next:before,
+.slick-next:after,
+.slick-prev:before,
+.slick-prev:after {
+  font-size: 50px !important;
+  color: black !important;
+}
+
+.slick-slide {
+  padding: 0 15px !important;
+}
+
+.slick-list {
+  padding: 0 10px 0 15px !important;
+}
